@@ -1,0 +1,4 @@
+rootProject.name = 'nacosDemo'
+include 'spring-cloud-nacos-provider'
+include 'spring-cloud-nacos-consumer'
+

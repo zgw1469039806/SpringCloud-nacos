@@ -1,0 +1,15 @@
+server:
+  port: 5006
+spring:
+  application:
+    name: spring-cloud-nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

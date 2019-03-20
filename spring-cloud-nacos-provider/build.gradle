@@ -1,0 +1,8 @@
+
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-alibaba-nacos-discovery', version: '0.1.1.RELEASE'
+
+}
